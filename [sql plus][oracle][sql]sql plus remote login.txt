@@ -1,0 +1,3 @@
+（需配好tnsname.ora）
+
+命令：sqlplus 用户名/密码@ip地址[:端口]/service_name

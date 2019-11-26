@@ -1,0 +1,13 @@
+set autotrace on/traceonly;
+select * ...  //your select
+
+(then can get the explain result)
+
+------- or
+
+explain plan for 
+	select * ...;  //your select
+select * from table(dbms_xplan.display);
+
+(also can get the explain result)
+ 
